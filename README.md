@@ -69,8 +69,8 @@ latest change 2014-07-16 使用本参考请留意openshift的最新更新说明�
         }
         
 3 ### 修改启动和停止脚本
-    
-    退出shell
+  
+退出shell
     
         vim .openshift/action_hooks/start
         
