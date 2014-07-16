@@ -1,6 +1,6 @@
 # Reverse_proxy
 
-## openshift
+## openshift-nginx
 latest change 2014-07-16 使用本参考请留意openshift的最新更新说明，特别是环境变量的变动。
 
 1. ### create app
