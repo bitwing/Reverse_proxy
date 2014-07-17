@@ -25,6 +25,7 @@ latest change 2014-07-17 使用本参考请留意openshift的最新更新说明�
  shell下输入`env | grep IP`和`env | grep PORT`获取`$OPENSHIFT_DIY_IP`和`$OPENSHFT_DIY_PORT`
 
         #user nobody;
+        worker_processes 1;
         events {
 	       use epoll;
             worker_connections  10240;
