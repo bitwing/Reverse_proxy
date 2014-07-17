@@ -1,7 +1,7 @@
 # Reverse_proxy
 
 ## openshift-nginx
-latest change 2014-07-16 使用本参考请留意openshift的最新更新说明，特别是环境变量的变动。
+latest change 2014-07-17 使用本参考请留意openshift的最新更新说明，特别是环境变量的变动。
 
 1. ### create app
 
@@ -15,7 +15,7 @@ latest change 2014-07-16 使用本参考请留意openshift的最新更新说明�
         wget http://nginx.org/download/nginx-1.7.3.tar.gz
         wget ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.35.tar.bz2 #下载并编译nginx的依赖包PCRE
         tar zxf nginx-1.7.3.tar.gz
-        tar zxf pcre-8.35.tar.bz2
+        tar jxf pcre-8.35.tar.bz2
         cd nginx-1.7.3
         ./configure --prefix=$OPENSHIFT_DATA_DIR --with-pcre=$OPENSHIFT_TMP_DIR/pcre-8.35 #配置nginx未添加ssl支持
         make install 安装
